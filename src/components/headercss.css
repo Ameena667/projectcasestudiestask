@@ -1,0 +1,37 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  font-size: 30px;
+}
+button {
+  font-size: 20px;
+  border-radius: 15px;
+  margin-left: 3px;
+}
+.header button:hover {
+  background-color: mediumseagreen;
+}
+
+.header button:active {
+  background-color: #006a4e;
+}
+
+.link:hover {
+  color: white;
+}
+.headerRight {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header button {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .headerRight {
+    float: none;
+  }
+}

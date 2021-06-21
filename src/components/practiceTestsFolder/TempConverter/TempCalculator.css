@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  height: auto;
+  padding: 40px 35px 35px 35px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 250px;
+  border-radius: 5px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #c0ced1, -13px -13px 20px #ffffff;
+}
+.container2 {
+  width: 70%;
+  height: auto;
+  padding: 40px 35px 35px 35px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #c0ced1, -13px -13px 20px #ffffff;
+}
+.tdegrees,
+.tconvert {
+  font-size: 20px;
+}
+.tbutton {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toutput {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tdegrees input,
+.tconvert select {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 8px 4px;
+}
+.ttype {
+  margin-right: 28px;
+}
+
+.toconvert {
+  width: 230px;
+}
+.root {
+  margin: none;
+  margin-left: 500px;
+  margin-top: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .container,
+  .container2 {
+    width: auto;
+    height: auto;
+    float: none;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}

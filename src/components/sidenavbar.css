@@ -1,0 +1,70 @@
+.sidenavbar {
+  margin: 0;
+  padding: 0;
+  width: 210px;
+  background-color: mediumseagreen;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidenavbar div {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidenavbar div.active {
+  background-color: #04aa6d;
+}
+
+.sidenavbar div:hover:not(.active) {
+  background-color: #555;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.individualrepo {
+  font-size: 20px;
+}
+Link {
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenavbar div {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sidenavbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenavbar div {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidenavbar div {
+    text-align: center;
+    float: none;
+  }
+}
